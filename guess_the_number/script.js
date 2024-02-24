@@ -15,7 +15,7 @@ function startGame() {
 function guessNumber() {
   usernum = user.value;
   usernum = Number.parseInt(usernum);
-  if (isNaN(usernum) || usernum < 1 || usernum > 100) {
+  if (isNaN(usernum) || usernum < 1 || usernum > 100 || usernum === "") {
     alert("Invalid Input! Please enter a number from 1 to 100.");
   } else {
     if (remain != 0) {
