@@ -1,0 +1,25 @@
+bodY {
+  background-color: #414141;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 65px); /* Subtract header height */
+  flex-direction: column;
+}
+
+.clock {
+  border: 2px solid #fff;
+  height: 50px;
+  width: 150px;
+  display: block;
+  border-radius: 20px;
+  background-color: #212121;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
